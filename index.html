@@ -11,7 +11,13 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+    integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/carousel.css">
 
   <title>Weft machine test</title>
 </head>
@@ -65,13 +71,10 @@
   </header>
 
 
-  <div class="banner">
-    <!-- <div class="banner-shape"></div> -->
+  <div class="banner img-fluid">
   </div>
 
-
-  <section class="work py-lg-3">
-
+  <section class="main-section">
     <div class="container">
       <div class="head-section text-center pb-lg-5 pb-md-5 pb-sm-3">
         <span class="top-heading ">Working Process</span>
@@ -180,60 +183,42 @@
       </div>
 
     </div>
-
-
-
   </section>
 
+  <!-- TEXT GOES HERE -->
 
-  <section class="main-section pt-5">
+  <section class="main-section">
     <div class="position-relative">
-      <div class="position-absolute top-0 start-0"><img class="img-fluid" src="assets/images/icon/text-goes-circle.png" alt=""></div>
-      <div class="position-absolute text-goes-circle-right"><img class="img-fluid" src="assets/images/icon/circle.png" alt=""></div>
-      <div class="position-absolute text-goes-pattern"><img class="img-fluid" src="assets/images/icon/pattern.png" alt=""></div>
-      <div class="position-absolute text-goes-circle-left"><img class="img-fluid" src="assets/images/icon/circle.png" alt=""></div>
- 
-    <div class="container">
-      <div class="head-section text-center pb-lg-5 pb-md-5 pb-sm-3">
-        <span class="top-heading ">Text goes here</span>
-        <h2 class="main-heading">Text Goes Here</h2>
-        <p class="main-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis.</p>
-      </div>
+      <div class="position-absolute top-0 start-0"><img class="img-fluid" src="assets/images/icon/text-goes-circle.png"
+          alt=""></div>
+      <div class="position-absolute text-goes-circle-right"><img class="img-fluid" src="assets/images/icon/circle.png"
+          alt=""></div>
+      <div class="position-absolute text-goes-pattern"><img class="img-fluid" src="assets/images/icon/pattern.png"
+          alt=""></div>
+      <div class="position-absolute text-goes-circle-left"><img class="img-fluid" src="assets/images/icon/circle.png"
+          alt=""></div>
 
-
-    </div>
-    <div class="container text-goes-canvas">
-      <div class="row">
-        <div class="col-lg-6 col-6">
-          <div class="position-relative overflow-hidden a">
-            <img class="text-goes-image-left img-fluid" src="assets/images/text-goes.png" alt="">
-            <div class="text-goes-overlay-left d-flex flex-column justify-content-center align-items-center">
-              <div class="card-overlay-inner p-5">
-                    <h3>Cranial 
-                      Remolding Orthoses</h3>
-                      <p>Get on-board with us for a successful journey with quality Cranial Care Program treating various types of skull deformities.</p>
-                      <div class="row">
-                        <div class="col-2">
-                          <div class="more-icon p-lg-3 p-sm-2 p-3 text-center">
-                            <i class="fa fa-solid fa-2x fa-angle-right"></i>
-                          </div>
-                        </div>
-                        <div class="col-10 py-lg-4 py-sm-2 py-3">
-                          <a href="#" class="read-more">Read more</a>
-                        </div>
-                      </div>
-              </div>
-          </div>
-          </div>
+      <div class="container">
+        <div class="head-section text-center pb-lg-5 pb-md-5 pb-sm-3">
+          <span class="top-heading ">Text goes here</span>
+          <h2 class="main-heading">Text Goes Here</h2>
+          <p class="main-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+            luctus venenatis.</p>
         </div>
-        <div class="col-lg-6 col-6">
-          <div class="position-relative overflow-hidden a">
-            <img class="text-goes-image-right img-fluid" src="assets/images/text-goes.png" alt="">
-            <div class="text-goes-overlay-right  d-flex flex-column justify-content-center align-items-center">
-              <div class="card-overlay-inner p-5">
-                <h3>Cranial 
-                  Remolding Orthoses</h3>
-                  <p>Get on-board with us for a successful journey with quality Cranial Care Program treating various types of skull deformities.</p>
+
+
+      </div>
+      <div class="container text-goes-canvas">
+        <div class="row">
+          <div class="col-lg-6 col-6">
+            <div class="position-relative overflow-hidden text-goes-anime">
+              <img class="text-goes-image-left img-fluid" src="assets/images/text-goes.png" alt="">
+              <div class="text-goes-overlay-left d-flex flex-column justify-content-center align-items-center">
+                <div class="card-overlay-inner p-5">
+                  <h3>Cranial
+                    Remolding Orthoses</h3>
+                  <p>Get on-board with us for a successful journey with quality Cranial Care Program treating various
+                    types of skull deformities.</p>
                   <div class="row">
                     <div class="col-2">
                       <div class="more-icon p-lg-3 p-sm-2 p-3 text-center">
@@ -244,202 +229,208 @@
                       <a href="#" class="read-more">Read more</a>
                     </div>
                   </div>
+                </div>
               </div>
+            </div>
           </div>
+          <div class="col-lg-6 col-6">
+            <div class="position-relative overflow-hidden text-goes-anime">
+              <img class="text-goes-image-right img-fluid" src="assets/images/text-goes.png" alt="">
+              <div class="text-goes-overlay-right  d-flex flex-column justify-content-center align-items-center">
+                <div class="card-overlay-inner p-5">
+                  <h3>Cranial
+                    Remolding Orthoses</h3>
+                  <p>Get on-board with us for a successful journey with quality Cranial Care Program treating various
+                    types of skull deformities.</p>
+                  <div class="row">
+                    <div class="col-2">
+                      <div class="more-icon p-lg-3 p-sm-2 p-3 text-center">
+                        <i class="fa fa-solid fa-2x fa-angle-right"></i>
+                      </div>
+                    </div>
+                    <div class="col-10 py-lg-4 py-sm-2 py-3">
+                      <a href="#" class="read-more">Read more</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
 
 
   </section>
 
-<!-- SERVICES -->
+  <!-- SERVICES -->
 
-  <section class="main-section  pt-5">
+  <section class="main-section">
     <div class="position-relative">
-      <!-- <div class="position-absolute top-0 start-0"><img class="img-fluid" src="assets/images/icon/text-goes-circle.png" alt=""></div>
-      <div class="position-absolute text-goes-circle-right"><img class="img-fluid" src="assets/images/icon/circle.png" alt=""></div>
-      <div class="position-absolute text-goes-pattern"><img class="img-fluid" src="assets/images/icon/pattern.png" alt=""></div>
-      <div class="position-absolute text-goes-circle-left"><img class="img-fluid" src="assets/images/icon/circle.png" alt=""></div> -->
- 
-    <div class="container">
-      <div class="head-section text-center pb-lg-5 pb-md-5 pb-sm-3 px-5">
-        <span class="top-heading ">Services</span>
-        <h2 class="main-heading">We Cover A Big Variety Of Medical Services</h2>
-        <p class="main-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, 
-          porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam 
-          dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra</p>
-      </div>
+      <div class="position-absolute service-icon1"><img class="img-fluid" src="assets/images/service/color-circle.png"
+          alt=""></div>
+      <div class="position-absolute service-icon2"><img class="img-fluid" src="assets/images/service/pattern.png"
+          alt=""></div>
+      <div class="position-absolute service-icon3"><img class="img-fluid" src="assets/images/service/all-circle.png"
+          alt=""></div>
+      <div class="position-absolute service-icon4"><img class="img-fluid" src="assets/images/service/circle-pattern.png"
+          alt=""></div>
 
-      <div class="bg-danger">
+      <div class="container">
+        <div class="head-section text-center pb-lg-5 pb-md-5 pb-sm-3 px-5">
+          <span class="top-heading ">Services</span>
+          <h2 class="main-heading">We Cover A Big Variety Of Medical Services</h2>
+          <p class="main-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+            luctus venenatis, lectus magna fringilla urna,
+            porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget
+            nulla facilisi etiam
+            dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra</p>
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
-        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style>
-        .owl-nav button {
-            position: absolute;
-            top: 50%;
-            background-color: #000;
-            color: #fff;
-            margin: 0;
-            transition: all 0.3s ease-in-out;
-        }
-    
-        .owl-nav button.owl-prev {
-            left: 0;
-        }
-    
-        .owl-nav button.owl-next {
-            right: 0;
-        }
-    
-        .owl-dots {
-            text-align: center;
-            padding-top: 15px;
-        }
-    
-        .owl-dots button.owl-dot {
-            width: 15px;
-            height: 15px;
-            border-radius: 50%;
-            display: inline-block;
-            background: #ccc;
-            margin: 0 3px;
-        }
-    
-        .owl-dots button.owl-dot.active {
-            background-color: #000;
-        }
-    
-        .owl-dots button.owl-dot:focus {
-            outline: none;
-        }
-    
-        .owl-nav button {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            background: rgba(255, 255, 255, 0.38) !important;
-        }
-    
-        span {
-            font-size: 70px;
-            position: relative;
-            top: -5px;
-        }
-    
-        .owl-nav button:focus {
-            outline: none;
-        }
-    </style>
-    
-    <div class="owl-slider">
-        <div id="servie-carousel" class="owl-carousel">
-            <div class="item">
-                <img src="https://cdn.europosters.eu/image/1300/zen-nature-i49609.jpg" alt="1000X1000">
+          <div class="row">
+            <div class="col-1">
+              <!-- <i class="fa fa-solid fa-2x fa-angle-right"></i> -->
             </div>
+            <div class="col-11"><a href="#" class="read-more">Read more</a></div>
+          </div>
 
-
-            <div class="item">
-                <img src="https://cutewallpaper.org/21/anime-trees-background/Anime-Tree-Background-98-images-in-Collection-Page-3.jpg"
-                    alt="">
-            </div>
-            <div class="item">
-                <img src="https://cdn.europosters.eu/image/1300/zen-nature-i49609.jpg" alt="">
-            </div>
-            <div class="item">
-                <img src="https://cutewallpaper.org/21/anime-trees-background/Anime-Tree-Background-98-images-in-Collection-Page-3.jpg"
-                    alt="">
-            </div>
-            <div class="item">
-                <img src="https://cdn.europosters.eu/image/1300/zen-nature-i49609.jpg" alt="">
-            </div>
-            <div class="item">
-                <img src="https://cutewallpaper.org/21/anime-trees-background/Anime-Tree-Background-98-images-in-Collection-Page-3.jpg"
-                    alt="">
-            </div>
-            <div class="item">
-                <img src="https://cdn.europosters.eu/image/1300/zen-nature-i49609.jpg" alt="">
-            </div>
-            <div class="item">
-                <img src="https://cutewallpaper.org/21/anime-trees-background/Anime-Tree-Background-98-images-in-Collection-Page-3.jpg"
-                    alt="">
-            </div>
-            <div class="item">
-                <img src="https://cdn.europosters.eu/image/1300/zen-nature-i49609.jpg" alt="">
-            </div>
-            <div class="item">
-                <img src="https://cutewallpaper.org/21/anime-trees-background/Anime-Tree-Background-98-images-in-Collection-Page-3.jpg"
-                    alt="">
-            </div>
         </div>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
-        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script>
-        jQuery("#servie-carousel").owlCarousel({
-            autoplay: true,
-            rewind: true, /* use rewind if you don't want loop */
-            margin: 20,
-          /*  center:true,   make center the div*/
-            // stagePadding: 50,
-            animateOut: 'fadeOut',
-            animateIn: 'fadeIn',
-            responsiveClass: true,
-            autoHeight: true,
-            autoplayTimeout: 7000,
-            smartSpeed: 800,
-            nav: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-    
-                600: {
-                    items: 1
-                },
-    
-                1024: {
-                    items: 1
-                },
-    
-                1366: {
-                    items: 1
-                }
-            }
-        });
-    </script>
-    
-    
-    
+
+        <div class="">
+          <div class="owl-slider">
+            <div id="servie-carousel" class="owl-carousel">
+              <div class="item">
+                <div class="d-flex justify-content-start">
+                  <img src="assets/images/service/service.png" alt="1000X1000">
+                </div>
+
+                <div class="service-card d-flex justify-content-center align-items-center flex-column p-5">
+                  <h4 class="service-card-heading">
+                    Prosthetics
+                  </h4>
+                  <p class="service-car-description">
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit ut aliquam, purus sit amet
+                    luctus venenatis, lectus magna fringilla urna,
+                    porttitor rhoncus dolor purus non enim.
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit ut aliquam, purus sit amet
+                    luctus venenatis, lectus magna fringilla urna,
+                    porttitor rhoncus dolor purus non enim.
+                  </p>
 
 
+                  <div class="row">
+                    <div class="col-2">
+                      <div class="more-icon-color">hi
+                        <!-- <i class="fa fa-solid fa-2x fa-angle-right"></i> -->
+                      </div>
+                    </div>
+                    <div class="col-10 py-lg-4 py-sm-2 py-3">
+                      <a href="#" class="read-more-white">Read more</a>
+                    </div>
+                  </div>
 
 
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="d-flex justify-content-start">
+                  <img src="assets/images/service/service.png" alt="1000X1000">
+                </div>
+
+                <div class="service-card d-flex justify-content-center align-items-center flex-column p-5">
+                  <h4 class="service-card-heading">
+                    Prosthetics
+                  </h4>
+                  <p class="service-car-description">
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit ut aliquam, purus sit amet
+                    luctus venenatis, lectus magna fringilla urna,
+                    porttitor rhoncus dolor purus non enim.
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit ut aliquam, purus sit amet
+                    luctus venenatis, lectus magna fringilla urna,
+                    porttitor rhoncus dolor purus non enim.
+                  </p>
 
 
+                  <div class="row">
+                    <div class="col-2">
+                      <div class="more-icon-color">hi
+                        <!-- <i class="fa fa-solid fa-2x fa-angle-right"></i> -->
+                      </div>
+                    </div>
+                    <div class="col-10 py-lg-4 py-sm-2 py-3">
+                      <a href="#" class="read-more-white">Read more</a>
+                    </div>
+                  </div>
 
 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
-
-
     </div>
-
-  
-  </div>
-
-
 
   </section>
+
+  <!-- MEET THE DOCTOR -->
+  <section class="main-section">
+    <div class="position-relative">
+      <div class="position-absolute doctor-icon">
+        <img class="img-fluid" src="assets/images/doctor/pattern.png" alt="">
+      </div>
+      <div class="container position-relative">
+      
+        <div class="head-section text-center pb-lg-5 pb-md-5 pb-sm-3">
+          <span class="top-heading ">Our Doctors</span>
+          <h2 class="main-heading">Meet Best Doctors</h2>
+          <p class="main-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+            luctus venenatis.</p>
+        </div>
+      </div>
+      <div class="doctor-container container">
+        <div class="row gx-5">
+          <div class="col-lg-4">
+            <div class="card doctor mx-auto" style="width: 25rem;">
+              <img src="assets/images/doctor/doctor1.png" class="card-img-top" alt="...">
+              <div class="card-body text-center pt-lg-5 pt-sm-3 pt-2">
+                <h5 class="card-title doctor-name">Dr. Addition Smith</h5>
+                <p class="card-text doctor-post">Orthotic Specialist</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card doctor mx-auto" style="width: 25rem;">
+              <img src="assets/images/doctor/doctor2.png" class="card-img-top" alt="...">
+              <div class="card-body text-center pt-lg-5 pt-sm-3 pt-2">
+                <h5 class="card-title doctor-name">Dr. Mahfuz Riad</h5>
+                <p class="card-text doctor-post">Prosthetic Specialist</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 third-doctor">
+            <div class="card doctor mx-auto" style="width: 25rem;">
+              <img src="assets/images/doctor/doctor3.png" class="card-img-top" alt="...">
+              <div class="card-body text-center pt-lg-5 pt-sm-3 pt-2">
+                <h5 class="card-title doctor-name">Dr. Addition Smith</h5>
+                <p class="card-text doctor-post">Orthotic Specialist</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
 
 
 
@@ -447,7 +438,53 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+    integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    jQuery("#servie-carousel").owlCarousel({
+      autoplay: true,
+      rewind: true, /* use rewind if you don't want loop */
+      margin: 20,
+      /*  center:true,   make center the div*/
+      // stagePadding: 50,
+      animateOut: 'fadeOut',
+      animateIn: 'fadeIn',
+      responsiveClass: true,
+      autoHeight: true,
+      autoplayTimeout: 7000,
+      smartSpeed: 800,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+
+        600: {
+          items: 1
+        },
+
+        1024: {
+          items: 1
+        },
+
+        1366: {
+          items: 1
+        }
+      }
+    });
+  </script>
+
   <script src="assets/js/script.css"></script>
+
+
+
+
 </body>
 
 </html>

@@ -1,0 +1,47 @@
+/* SERVICE */
+
+
+.owl-nav button {
+    position: absolute;
+    background-color: #000;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.owl-nav button.owl-prev {
+    right: 44px;
+}
+
+.owl-nav button.owl-next {
+    right: 0;
+}
+
+.owl-carousel .owl-nav button.owl-next{
+    color: red;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.owl-carousel .owl-nav button.owl-prev{
+    color: red;
+    background-color: #fff;
+}
+
+
+.owl-carousel .owl-item img {
+    max-width: 1000px;
+}
+.owl-nav button {
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+span {
+    font-size: 70px;
+    position: relative;
+    top: -5px;
+}
+
+.owl-nav button:focus {
+    outline: none;
+}

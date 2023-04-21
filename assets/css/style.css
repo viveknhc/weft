@@ -131,9 +131,9 @@ nav .nav-link {
     color: #6C6C6C;
 }
 
-.main-section  {
+.main-section {
     background-color: #F5F5F5;
-    padding-bottom:250px;
+    padding-top: 168px;
 }
 
 /* TEXT GOES HERE */
@@ -142,11 +142,13 @@ nav .nav-link {
     bottom: -164px;
     left: 163px;
 }
-.text-goes-circle-left{
+
+.text-goes-circle-left {
     left: 70px;
     bottom: -251px;
 }
-.text-goes-circle-right{
+
+.text-goes-circle-right {
     right: 119px;
     bottom: 90px;
 }
@@ -178,7 +180,7 @@ nav .nav-link {
     background-color: #7a7979c4;
 }
 
-.a:hover .text-goes-overlay-left {
+.text-goes-anime:hover .text-goes-overlay-left {
     top: 0;
 }
 
@@ -194,7 +196,7 @@ nav .nav-link {
     background-color: #7a7979c4;
 }
 
-.a:hover .text-goes-overlay-right {
+.text-goes-anime:hover .text-goes-overlay-right {
     top: 0;
 }
 
@@ -226,6 +228,7 @@ nav .nav-link {
 }
 
 
+
 .card-overlay-inner .read-more {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -236,7 +239,134 @@ nav .nav-link {
 }
 
 
+
+
+
 /* SERVICE */
-.service-container{
+.service-container {
     max-width: 860px;
 }
+
+.service-card {
+    position: absolute;
+    bottom: 21px;
+    right: 0;
+    max-width: 508px;
+    height: 667px;
+    background-color: rgba(239, 103, 36, 0.9);
+    border-radius: 223px 0px 0px 0px;
+
+}
+
+.service-card-heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.service-car-description {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 36px;
+    color: #FAF5F2;
+}
+
+.more-icon-color {
+    font-family: 'Montserrat';
+    background-color: #FFFFFF;
+    opacity: 1 !important;
+    color: #EF6724;
+    border-radius: 100%;
+}
+
+.read-more-white {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+
+.service-icon1 {
+    right: 126px;
+    top: 278px;
+}
+
+.service-icon2 {
+    right: 103px;
+    top: 383px;
+    z-index: 4;
+}
+
+.service-icon3 {
+    left: 302px;
+    top: 417px;
+    z-index: 3;
+}
+
+.service-icon4 {
+    bottom: -76px;
+    left: 138px;
+
+}
+
+.read-more {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration-line: underline;
+    color: #EF6724;
+}
+
+
+/* MEET BEST DOCTOR */
+
+.doctor {
+    border: none;
+    background-color: #F5F5F5;
+}
+
+.doctor-name {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #EF6724;
+}
+
+.doctor-post {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #6C6C6C;
+
+}
+.doctor-icon{
+    top: -60px;
+    right: 184px;
+    z-index: 1;
+}
+
+.third-doctor{
+    z-index: 2;
+}
+@media (min-width: 1400px){
+    .doctor-container{
+        max-width: 1526px;
+    }
+}
+
+/* .about-section {
+    background-color: #F5F5F5;
+    padding-bottom: 250px;
+} */
