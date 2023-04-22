@@ -45,19 +45,95 @@ nav .nav-link {
 
 /* BANNER */
 
+
+
 .banner {
     height: 100vh;
     background-image: url('../images/banner/banner.png');
-    background-repeat: no-repeat;
+
     background-size: cover;
+    background-position: center center;
 }
 
-.banner-shape {
-    max-width: 818px;
-    min-height: 818px;
-    background-image: url('../images/shape/3.png');
+/* .banner-shape {
+    position: absolute;
+
+    top: 0;
+    right: 0;
+    height: 100vh;
+    background-image: url('../images/banner/shape.png');
     background-repeat: no-repeat;
-    background-size: cover;
+}  */
+
+
+/* ABOUT */
+
+
+.about-bgline{
+    bottom: -187px;
+    z-index: -2;
+}
+.about-image {
+    z-index: 5;
+}
+.feature {
+    -webkit-animation: movebounce 5s linear infinite;
+    animation: movebounce 5s linear infinite;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    display: flex;
+    place-items: center;
+}
+.feature1{
+    top: 112px;
+    left: 330px;
+
+}
+.feature2{
+    bottom: 124px;
+    left: 370px;
+}
+.feature3{
+    right: 274px;
+    bottom: 126px;
+}
+.feature4{
+    right: 299px;
+    top: 56px;
+}
+.feature-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.feature-icon1 {
+    background-color: #23BDEE;
+    border-radius: 14px;
+}
+
+.feature-icon2{
+    background-color: #F3627C;
+    border-radius: 14px;
+}
+
+.feature-icon3{
+    background-color: #23BDEE;
+    border-radius: 14px;
+}
+
+.feature-icon4{
+    background-color: #F3627C;
+    border-radius: 14px;
+}
+
+.about-circle-left{
+    left: 83px;
+    bottom: 0;
 }
 
 
@@ -67,16 +143,30 @@ nav .nav-link {
 .work {
     background-color: #F5F5F5;
 }
-
+.work-icon2{
+    right: 210px;
+    top: 172px;
+}
+.work-icon3{
+    right: 64px;
+    bottom: -173px;
+}
+.work-icon4{
+    right: 70px;
+    bottom: -142px;
+}
 .work-card {
     border-radius: 120px 0px 0px 0px;
     background-color: #F5F5F5;
     border: 0.5px solid #F07539;
+    position: relative;
+    z-index: 1;
 }
 
-.work-card:hover {
-    background-color: #6C6C6C;
-    color: #FFFFFF;
+@media (min-width: 1400px) {
+    .work-container {
+        max-width: 1525px;
+    }
 }
 
 .top-heading {
@@ -134,6 +224,64 @@ nav .nav-link {
 .main-section {
     background-color: #F5F5F5;
     padding-top: 168px;
+}
+
+
+.work-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    width: 0;
+    height: 100%;
+    border-radius: 120px 0px 0px 0px;
+    background-color: #6C6C6C;
+    opacity: 0;
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    -webkit-transition-duration: .6s;
+    transition-duration: .6s
+}
+
+
+
+.work-card .work-card-heading {
+    margin-bottom: 5px;
+    -webkit-transition: var(--transition);
+    transition: var(--transition)
+}
+
+.work-card svg {
+    margin-bottom: 5px;
+    -webkit-transition: var(--transition);
+    transition: var(--transition)
+}
+
+
+.work-card p {
+    margin-bottom: 0;
+    color: var(--bodyColor);
+    -webkit-transition: var(--transition);
+    transition: var(--transition)
+}
+
+.work-card:hover::before {
+    opacity: 1;
+    width: 100%
+}
+
+.work-card:hover .work-card-heading {
+    color: #FFFFFF;
+}
+
+.work-card:hover p {
+    color: #FFFFFF;
+}
+
+
+.work-card:hover path {
+    fill: #FFFFFF;
 }
 
 /* TEXT GOES HERE */
@@ -478,7 +626,169 @@ footer li {
     .main-heading {
         font-size: 34px;
     }
-    .main-paragraph{
+
+    .main-paragraph {
         line-height: 22px;
     }
+    .about-bgline{
+        top: 50%;
+        z-index: -2;
+    }
+    .feature1 {
+        top: 0vh;
+        left: 0vh;
+    }
+
+    /* .feature2 {
+        right: 0vh;
+        top: 0vh;
+    }
+
+
+    .feature3 {
+        bottom: 0vh;
+        left: 0vh;
+    }
+
+
+    .feature4 {
+        bottom: 0vh;
+        right: 0vh;
+    } */
+
+
+    .feature-text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+        color: #000000;
+    }
+    
+    .feature-icon1 {
+        background-color: #23BDEE;
+        border-radius: 14px;
+    }
+    
+    .feature-icon2{
+        background-color: #F3627C;
+        border-radius: 14px;
+    }
+    
+    .feature-icon3{
+        background-color: #23BDEE;
+        border-radius: 14px;
+    }
+    
+    .feature-icon4{
+        background-color: #F3627C;
+        border-radius: 14px;
+    }
+
+    /* TEXT GOES */
+
+
+    .card-overlay-inner p {
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 13px;
+        color: #FFFFFF;
+    }
+    .card-overlay-inner h3 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+}
+
+
+
+/* ANIMATION */
+
+@media (prefers-reduced-motion) {
+    [data-animation] {
+        animation: none;
+    }
+}
+
+
+.animation-group [data-animation].animate {
+    opacity: 1;
+}
+
+.animation-group [data-animation] .icon {
+    font-size: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s ease;
+}
+
+/* .animation-group [data-animation]:hover {
+    background: radial-gradient(circle at 50% 45%, rgba(189, 50, 255, 0.2) 0%, #232323 60%);
+    box-shadow: 0 4px 25px #000, inset 2px 2px 2px #393939;
+}
+
+.animation-group [data-animation]:hover .icon {
+    transform: scale(1.1);
+} */
+
+.animation-group [data-animation]:nth-child(1) {
+    animation-delay: 100ms;
+}
+
+.animation-group [data-animation]:nth-child(2) {
+    animation-delay: 500ms;
+}
+
+.animation-group [data-animation]:nth-child(3) {
+    animation-delay: 900ms;
+}
+
+.animation-group [data-animation]:nth-child(4) {
+    animation-delay: 1300ms;
+}
+
+/* Animations */
+:root {
+    --animate-duration: 1.5s;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-duration: var(--animate-duration);
+    animation-fill-mode: both;
+}
+
+.fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
 }
