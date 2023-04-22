@@ -351,22 +351,64 @@ nav .nav-link {
     color: #6C6C6C;
 
 }
-.doctor-icon{
+
+.doctor-icon {
     top: -60px;
     right: 184px;
     z-index: 1;
 }
 
-.third-doctor{
+.third-doctor {
     z-index: 2;
 }
-@media (min-width: 1400px){
-    .doctor-container{
+
+@media (min-width: 1400px) {
+    .doctor-container {
         max-width: 1526px;
     }
 }
 
+
+
 /* .about-section {
     background-color: #F5F5F5;
     padding-bottom: 250px;
+} */
+
+
+
+/* NEWS */
+
+.news-subtitle {
+    color: #EF6724;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.news-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 40px;
+    color: #6C6C6C;
+}
+
+.news-link {
+    color: #EF6724;
+
+}
+
+
+.news-card{
+    border-radius: 16px;
+}
+
+
+/* FOOTER */
+
+/* @media (min-width: 1400px) {
+    .footer-conatiner {
+        max-width: 1526px;
+    }
 } */

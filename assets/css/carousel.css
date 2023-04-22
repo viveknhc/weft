@@ -1,47 +1,40 @@
 /* SERVICE */
 
-
-.owl-nav button {
+.service .owl-carousel .owl-nav button.owl-prev {
     position: absolute;
-    background-color: #000;
-    margin: 0;
-    transition: all 0.3s ease-in-out;
-}
+    bottom: 0;
+    right: 55px;
+    background-color: #fff !important;
+    font-size: 31px !important;
+    border-radius: 100%;
+    min-width: 50px !important;
+    color: #EF6724 !important;
+  }
 
-.owl-nav button.owl-prev {
-    right: 44px;
-}
-
-.owl-nav button.owl-next {
+  .service .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    bottom: 0;
     right: 0;
-}
+    background-color: #fff !important;
+    font-size: 31px !important;
+    border-radius: 100% !important;
+    min-width: 50px !important;
+    color: #EF6724 !important;
+  }
 
-.owl-carousel .owl-nav button.owl-next{
-    color: red;
-    background-color: #fff;
-    padding: 10px;
-}
+  /* NEWS */
 
-.owl-carousel .owl-nav button.owl-prev{
-    color: red;
-    background-color: #fff;
-}
+  .news .owl-carousel .owl-nav button.owl-prev {
+    display: none;
+  }
 
-
-.owl-carousel .owl-item img {
-    max-width: 1000px;
-}
-.owl-nav button {
+  .news .owl-carousel .owl-nav button.owl-next {
     position: absolute;
-    transform: translateY(-50%);
-}
-
-span {
-    font-size: 70px;
-    position: relative;
-    top: -5px;
-}
-
-.owl-nav button:focus {
-    outline: none;
-}
+    bottom: 0;
+    right: 0;
+    background-color: #fff !important;
+    font-size: 31px !important;
+    border-radius: 100% !important;
+    min-width: 50px !important;
+    color: #EF6724 !important;
+  }

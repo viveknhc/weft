@@ -1,142 +1,78 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
-    integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-<style>
-    .owl-nav button {
-        position: absolute;
-        top: 50%;
-        background-color: #000;
-        color: #fff;
-        margin: 0;
-        transition: all 0.3s ease-in-out;
-    }
+<head>
+    <!-- Add the Owl Carousel stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <!-- Add the Owl Carousel default theme stylesheet -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+</head>
 
-    .owl-nav button.owl-prev {
-        left: 0;
-    }
+<body>
 
-    .owl-nav button.owl-next {
-        right: 0;
-    }
-
-    .owl-dots {
-        text-align: center;
-        padding-top: 15px;
-    }
-
-    .owl-dots button.owl-dot {
-        width: 15px;
-        height: 15px;
-        border-radius: 50%;
-        display: inline-block;
-        background: #ccc;
-        margin: 0 3px;
-    }
-
-    .owl-dots button.owl-dot.active {
-        background-color: #000;
-    }
-
-    .owl-dots button.owl-dot:focus {
-        outline: none;
-    }
-
-    .owl-nav button {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        background: rgba(255, 255, 255, 0.38) !important;
-    }
-
-    span {
-        font-size: 70px;
-        position: relative;
-        top: -5px;
-    }
-
-    .owl-nav button:focus {
-        outline: none;
-    }
-</style>
-
-<div class="owl-slider">
-    <div id="carousel" class="owl-carousel">
-        <div class="item">
-            <img src="https://cdn.europosters.eu/image/1300/zen-nature-i49609.jpg" alt="1000X1000">
-        </div>
-        <div class="item">
-            <img src="https://cutewallpaper.org/21/anime-trees-background/Anime-Tree-Background-98-images-in-Collection-Page-3.jpg"
-                alt="">
-        </div>
-        <div class="item">
-            <img src="https://cdn.europosters.eu/image/1300/zen-nature-i49609.jpg" alt="">
-        </div>
-        <div class="item">
-            <img src="https://cutewallpaper.org/21/anime-trees-background/Anime-Tree-Background-98-images-in-Collection-Page-3.jpg"
-                alt="">
-        </div>
-        <div class="item">
-            <img src="https://cdn.europosters.eu/image/1300/zen-nature-i49609.jpg" alt="">
-        </div>
-        <div class="item">
-            <img src="https://cutewallpaper.org/21/anime-trees-background/Anime-Tree-Background-98-images-in-Collection-Page-3.jpg"
-                alt="">
-        </div>
-        <div class="item">
-            <img src="https://cdn.europosters.eu/image/1300/zen-nature-i49609.jpg" alt="">
-        </div>
-        <div class="item">
-            <img src="https://cutewallpaper.org/21/anime-trees-background/Anime-Tree-Background-98-images-in-Collection-Page-3.jpg"
-                alt="">
-        </div>
-        <div class="item">
-            <img src="https://cdn.europosters.eu/image/1300/zen-nature-i49609.jpg" alt="">
-        </div>
-        <div class="item">
-            <img src="https://cutewallpaper.org/21/anime-trees-background/Anime-Tree-Background-98-images-in-Collection-Page-3.jpg"
-                alt="">
-        </div>
-    </div>
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
-    integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script>
-    jQuery("#carousel").owlCarousel({
-        autoplay: true,
-        rewind: true, /* use rewind if you don't want loop */
-        margin: 20,
-      /*  center:true,   make center the div*/
-        // stagePadding: 50,
-        animateOut: 'fadeOut',
-        animateIn: 'fadeIn',
-        responsiveClass: true,
-        autoHeight: true,
-        autoplayTimeout: 7000,
-        smartSpeed: 800,
-        nav: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-
-            600: {
-                items: 1
-            },
-
-            1024: {
-                items: 1
-            },
-
-            1366: {
-                items: 1
-            }
+    <style>
+        .owl-prev,
+        .owl-next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: #000;
+            color: #fff;
+            font-size: 20px;
+            text-align: center;
+            line-height: 30px;
         }
-    });
-</script>
+
+        .owl-prev {
+            left: 10px;
+        }
+
+        .owl-next {
+            right: 10px;
+        }
+    </style>
 
 
 
+    <div class="owl-carousel">
+        <div><img src="assets/images/doctor/doctor1.png"></div>
+        <div><img src="assets/images/doctor/doctor2.png"></div>
+        <div><img src="assets/images/doctor/doctor3.png"></div>
+        <div><img src="assets/images/doctor/doctor1.png"></div>
+        <div><img src="assets/images/doctor/doctor2.png"></div>
+        <div><img src="assets/images/doctor/doctor3.png"></div>
+        <div><img src="assets/images/doctor/doctor1.png"></div>
+        <div><img src="assets/images/doctor/doctor2.png"></div>
+        <div><img src="assets/images/doctor/doctor3.png"></div>
+        <div><img src="assets/images/doctor/doctor1.png"></div>
+        <div><img src="assets/images/doctor/doctor2.png"></div>
+        <div><img src="assets/images/doctor/doctor3.png"></div>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true, // enable navigation buttons
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 5
+                    }
+                }
+            });
+        });
+    </script>
+</body>
