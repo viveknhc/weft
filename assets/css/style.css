@@ -400,7 +400,7 @@ nav .nav-link {
 }
 
 
-.news-card{
+.news-card {
     border-radius: 16px;
 }
 
@@ -412,3 +412,73 @@ nav .nav-link {
         max-width: 1526px;
     }
 } */
+
+footer {
+    background-color: #F9F9F9;
+}
+
+.footer-about {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #232536;
+}
+
+.footer-heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #EF6724;
+}
+
+footer li {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 29px;
+    color: #232536;
+    list-style: none;
+}
+
+.talk {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #EF6724;
+
+}
+
+.contact {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #232536;
+}
+
+.subscribe {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #EF6724;
+}
+
+
+/* 
+320 - 576 : Phone 577 - 768 : Tab 769 - 991 : Lap 991 - : Large screen */
+/* RESPONSIVE */
+
+@media (max-width: 767px) {
+    .main-heading {
+        font-size: 34px;
+    }
+    .main-paragraph{
+        line-height: 22px;
+    }
+}
