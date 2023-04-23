@@ -1,40 +1,56 @@
 /* SERVICE */
 
 .service .owl-carousel .owl-nav button.owl-prev {
-    position: absolute;
-    bottom: 52px;;
-    right: 55px;
-    background-color: #fff !important;
-    font-size: 31px !important;
-    border-radius: 100%;
-    min-width: 50px !important;
-    color: #EF6724 !important;
-  }
+  position: absolute;
+  bottom: 52px;
+  ;
+  right: 55px;
+  background-color: #fff !important;
+  font-size: 31px !important;
+  border-radius: 100%;
+  min-width: 50px !important;
+  color: #EF6724 !important;
+}
 
-  .service .owl-carousel .owl-nav button.owl-next {
-    position: absolute;
-    bottom: 52px;;
-    right: 0;
-    background-color: #fff !important;
-    font-size: 31px !important;
-    border-radius: 100% !important;
-    min-width: 50px !important;
-    color: #EF6724 !important;
-  }
+.service .owl-carousel .owl-nav button.owl-next {
+  position: absolute;
+  bottom: 52px;
+  ;
+  right: 0;
+  background-color: #fff !important;
+  font-size: 31px !important;
+  border-radius: 100% !important;
+  min-width: 50px !important;
+  color: #EF6724 !important;
+}
 
-  /* NEWS */
+/* NEWS */
 
-  .news .owl-carousel .owl-nav button.owl-prev {
+.news .owl-carousel .owl-nav button.owl-prev {
+  display: none;
+}
+
+.news .owl-carousel .owl-nav button.owl-next {
+  position: absolute;
+  bottom: 29px;
+  right: -51px;
+  background-color: #fff !important;
+  font-size: 31px !important;
+  border-radius: 100% !important;
+  min-width: 50px !important;
+  color: #EF6724 !important;
+}
+
+@media (max-width: 820px) {
+  .news .owl-carousel .owl-nav button.owl-next {
     display: none;
   }
 
-  .news .owl-carousel .owl-nav button.owl-next {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    background-color: #fff !important;
-    font-size: 31px !important;
-    border-radius: 100% !important;
-    min-width: 50px !important;
-    color: #EF6724 !important;
+  .service .owl-carousel .owl-nav button.owl-prev {
+    display: none;
   }
+
+  .service .owl-carousel .owl-nav button.owl-next {
+    display: none;
+  }
+}

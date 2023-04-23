@@ -25,7 +25,7 @@ document.writeln('<script src="assets/js/tweenMax.min.js" type="text/javascript"
       loop: true,
       margin: 10,
       nav: true, // enable navigation buttons
-      navText: ["<img src='myprevimage.png'>","<img src='assets/images/news/arrow.png'>"],
+      navText: ["<img src='assets/images/news/arrow.png'>","<img src='assets/images/news/arrow.png'>"],
       responsive: {
         0: {
           items: 1
