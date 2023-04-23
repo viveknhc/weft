@@ -2,7 +2,7 @@
 
 .service .owl-carousel .owl-nav button.owl-prev {
     position: absolute;
-    bottom: 0;
+    bottom: 52px;;
     right: 55px;
     background-color: #fff !important;
     font-size: 31px !important;
@@ -13,7 +13,7 @@
 
   .service .owl-carousel .owl-nav button.owl-next {
     position: absolute;
-    bottom: 0;
+    bottom: 52px;;
     right: 0;
     background-color: #fff !important;
     font-size: 31px !important;
