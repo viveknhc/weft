@@ -45,23 +45,21 @@
               <a class="nav-link ms-4" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link ms-4" aria-current="page" href="#">About Us</a>
+              <a class="nav-link ms-4" aria-current="page" href="#aboutus">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link ms-4" aria-current="page" href="#">Services</a>
+              <a class="nav-link ms-4" aria-current="page" href="#service">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link ms-4" aria-current="page" href="#">Team</a>
+              <a class="nav-link ms-4" aria-current="page" href="#team">Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link ms-4" aria-current="page" href="#">Blogs</a>
+              <a class="nav-link ms-4" aria-current="page" href="#blogs">Blogs</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link ms-4" aria-current="page" href="#">Contact Us</a>
+              <a class="nav-link ms-4" aria-current="page" href="#contactus">Contact Us</a>
             </li>
-
           </ul>
-
           <form class="d-flex">
             <button class="btn call-button p-2 me-lg-3" type="submit">
               <img src="assets/images/icon/Call.png" alt="">
@@ -98,7 +96,7 @@
   </section>
 
   <!-- ABOUT -->
-  <section class="main-section">
+  <section class="main-section" id="aboutus">
     <div class="container">
       <div class="head-section text-center pb-lg-5 pb-md-5 pb-sm-3">
         <span class="top-heading ">About Us</span>
@@ -187,7 +185,8 @@
   <!-- WORK -->
   <section class="main-section">
     <div class="position-relative">
-      <div class="position-absolute work-icon1 top-0 start-0"><img class="img-fluid" src="assets/images/work/3.png" alt=""></div>
+      <div class="position-absolute work-icon1 top-0 start-0"><img class="img-fluid" src="assets/images/work/3.png"
+          alt=""></div>
       <div class="position-absolute work-icon2"><img class="img-fluid" src="assets/images/icon/circle.png" alt=""></div>
       <div class="position-absolute work-icon3"><img class="img-fluid" src="assets/images/work/1.png" alt=""></div>
       <div class="position-absolute work-icon4"><img class="img-fluid" src="assets/images/work/4.png" alt=""></div>
@@ -317,8 +316,8 @@
 
   <section class="main-section">
     <div class="position-relative">
-      <div class="position-absolute text-goes-icon top-0 start-0"><img class="img-fluid" src="assets/images/icon/text-goes-circle.png"
-          alt=""></div>
+      <div class="position-absolute text-goes-icon top-0 start-0"><img class="img-fluid"
+          src="assets/images/icon/text-goes-circle.png" alt=""></div>
       <div class="position-absolute text-goes-circle-right"><img class="img-fluid" src="assets/images/icon/circle.png"
           alt=""></div>
       <div class="position-absolute text-goes-pattern"><img class="img-fluid" src="assets/images/icon/pattern.png"
@@ -379,7 +378,7 @@
 
   <!-- SERVICES -->
 
-  <section class="main-section">
+  <section class="main-section" id="service">
     <div class="position-relative">
       <div class="position-absolute service-icon1"><img class="img-fluid" src="assets/images/service/color-circle.png"
           alt=""></div>
@@ -410,7 +409,7 @@
           <div class="owl-slider">
             <div id="servie-carousel" class="owl-carousel">
               <div class="item">
-                <div class="d-flex justify-content-start">
+                <div class="d-flex justify-content-start service-img-box">
                   <img class="service-image" src="assets/images/service/service.png" alt="1000X1000">
                 </div>
 
@@ -473,7 +472,7 @@
   </section>
 
   <!-- MEET THE DOCTOR -->
-  <section class="main-section">
+  <section class="main-section" id="team">
     <div class="position-relative">
       <div class="position-absolute doctor-icon">
         <img class="img-fluid" src="assets/images/doctor/pattern.png" alt="">
@@ -525,19 +524,19 @@
   </section>
 
   <!-- APPOINMENT -->
-  <section class="main-section">
+  <section class="main-section" id="contactus">
     <div class="position-relative container">
       <div class="">
-<div class="position-absolute contact-icon1"><img class="img-fluid" src="assets/images/contact/3.png"
-          alt=""></div>
-      <div class="position-absolute contact-icon2"><img class="img-fluid" src="assets/images/contact/4.png"
-          alt=""></div>
-      <div class="position-absolute contact-icon3"><img class="img-fluid" src="assets/images/contact/2.png"
-          alt=""></div>
-      <div class="position-absolute contact-icon4"><img class="img-fluid" src="assets/images/contact/5.png"
-          alt=""></div>
-          <div class="position-absolute contact-icon5"><img class="img-fluid" src="assets/images/contact/1.png"
-            alt=""></div>
+        <div class="position-absolute contact-icon1"><img class="img-fluid" src="assets/images/contact/3.png" alt="">
+        </div>
+        <div class="position-absolute contact-icon2"><img class="img-fluid" src="assets/images/contact/4.png" alt="">
+        </div>
+        <div class="position-absolute contact-icon3"><img class="img-fluid" src="assets/images/contact/2.png" alt="">
+        </div>
+        <div class="position-absolute contact-icon4"><img class="img-fluid" src="assets/images/contact/5.png" alt="">
+        </div>
+        <div class="position-absolute contact-icon5"><img class="img-fluid" src="assets/images/contact/1.png" alt="">
+        </div>
 
         <div class="head-section text-center pb-lg-5 pb-md-5 pb-sm-3">
           <h2 class="main-heading">Book Appointment</h2>
@@ -594,22 +593,14 @@
               </div>
 
               <div class="mb-3">
-
                 <label for="exampleInputEmail1" class="form-label">Booking Date</label>
-
                 <div class="input-group">
                   <div class="d-flex align-items-center">
-
-                    <!-- <i class="fa-regular fa-calendar-check"></i> -->
                     <img src="assets/images/contact/calender.png" alt="Image" class="">
                   </div>
-                  <input type="date" placeholder="Select booking date" class="form-control border-0 rounded-0"
+                  <input type="date" placeholder="Select booking date" class="form-control border-0 rounded-0 p-0"
                     placeholder="Select booking date">
                 </div>
-
-
-                <!-- <input type="date" placeholder=" Select booking date" class="form-control" id="number"
-                  aria-describedby="emailHelp"> -->
               </div>
               <button type="submit" class="btn contact-submit py-3">Appointment Now</button>
             </form>
@@ -627,7 +618,7 @@
 
   <!-- NEWS -->
 
-  <section class="main-section">
+  <section class="main-section" id="blogs">
     <div class="position-relative">
       <div class="position-absolute news-icon">
         <img class="img-fluid" src="assets/images/news/icon.png" alt="">
@@ -778,7 +769,7 @@
 
             <ul>
               <li>About</li>
-              <li>Servive</li>
+              <li>Service</li>
               <li>Team</li>
               <li>Blog</li>
               <li>Contact Us</li>
@@ -819,20 +810,24 @@
 
           <div>
 
+            <form action="">
+              <div class="input-group my-3">
+                <input type="text" placeholder="Select booking date" class="form-control border-0 rounded-0 p-0"
+                  placeholder="Select booking date">
+                <div class="d-flex align-items-center">
+                  <img src="assets/images/footer/send.png" alt="Image" class="">
+                </div>
 
-            <div class="input-group my-3">
-              <form action=""></form>
-              <input type="text" class="form-control" placeholder="Your email address" aria-label="Recipient's username"
-                aria-describedby="button-addon2">
-              <button class="btn btn-outline-secondary" type="button" id="button-addon2">
-                <i class="fa fa-user"></i>
+              </div>
+
+
               </button>
-              </form>
-            </div>
+            </form>
           </div>
         </div>
-
       </div>
+
+    </div>
     </div>
   </footer>
 
@@ -841,7 +836,7 @@
 
       <div class="d-flex justify-content-end align-items-center">
         <div class="my-3">
-            <img class="mx-4" src="assets/images/icon/facebook.png" alt="">
+          <img class="mx-4" src="assets/images/icon/facebook.png" alt="">
           <img class="mx-4" src="assets/images/icon/twitter.png" alt="">
           <img class="mx-4" src="assets/images/icon/instagram.png" alt="">
           <img class="mx-4" src="assets/images/icon/linkedin.png" alt="">
